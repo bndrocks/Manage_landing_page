@@ -1,0 +1,235 @@
+body {
+    color: hsl(228, 39%, 23%);
+    font-family: 'Be Vietnam';
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+nav {
+    margin: 20px 50px 20px 50px;
+    display: flex!important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding-inline-start: unset;
+    display: flex;
+}
+
+nav ul li a{
+    padding: 10px;
+    color: hsl(228, 39%, 23%);
+}
+
+nav ul li a:hover{
+    color: hsl(228, 39%, 23%, 0.6);
+    text-decoration: none;
+}
+
+div p {
+    color: grey;
+}
+
+.btn-red {
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 10px 10px hsl(13, 100%, 96%);
+}
+
+.btn-red:hover {
+    background-color: hsl(12, 88%, 59%, 0.7);
+}
+
+.btn-red:focus { 
+    outline: none;
+}
+
+main {
+    margin: 40px 50px 20px 50px;
+    display: flex!important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-text{
+    max-width: 350px;
+    margin-bottom: 35px;
+}
+
+.main-item {
+    width: 500px;
+    margin-top: 100px;
+}
+
+.main-item h1{
+    max-width: 400px;
+}
+
+.main-item h2{
+    max-width: 400px;
+}
+
+main img {
+    max-height: 400px;
+    margin-top: 100px;
+}
+
+.item-list {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.marker-list {
+    margin-top: 1em;
+    margin-right: 1.8em;
+    height: 40px;
+    padding: 0px 30px 0px 30px;
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    border: none;
+}
+
+.main-carousel {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.item-carousel {
+    background-color: rgba(128, 128, 128, 0.082);
+    margin: 60px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
+}
+
+.item-carousel img {
+    height: 80px;
+    margin-top: -40px;
+}
+
+section {
+    color: white;
+    display: flex!important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(12, 88%, 59%);
+    padding: 40px 50px 40px 50px;
+    margin-top: 100px;
+}
+
+section h1{
+    max-width: 400px;
+}
+
+.btn-white {
+    color: hsl(12, 88%, 59%);
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    padding: 0px 20px 0px 20px;
+}
+
+.btn-white:hover {
+    color: hsl(12, 88%, 59%, 0.5);
+}
+
+.btn-white:focus { 
+    outline: none;
+}
+
+footer h1 {
+    color: white;
+    max-width: 500px;
+}
+
+footer {
+    padding: 40px 50px 40px 50px;
+    background-color: hsl(228, 39%, 23%);
+    display: flex!important;
+    justify-content: space-between;
+}
+
+.footer-icon{
+    margin-top: 60px;
+}
+
+.footer-icon img{
+    margin-right: 10px;
+}
+
+.footer-icon img:hover{
+    filter: invert(63%) sepia(53%) saturate(5941%) hue-rotate(337deg) brightness(96%) contrast(97%);
+}
+
+footer ul {
+    list-style: none;
+    padding-inline-start: unset;
+    margin: 0px;
+}
+
+footer ul li{
+    padding-top: 10px;
+}
+
+footer ul li a {
+    padding: 10px;
+    color: white;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: hsl(12, 88%, 59%);
+}
+
+.btn-bottom {
+    box-shadow: none;
+}
+
+footer input {
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
+
+footer input:focus{
+    outline: none;
+}
+
+.icons-bottom {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icons-bottom div {
+    width: 100%;
+}
+
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff4000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff4000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.text-bottom{
+    color: hsl(12, 88%, 59%);
+    font-size: small;
+    font-style: italic;
+}
+
+.input-error{
+    color: hsl(12, 88%, 59%);
+}
+
+.display-none{
+    display: none;
+}
